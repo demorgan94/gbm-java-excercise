@@ -6,6 +6,7 @@ import mx.dm.gbmexercisebackend.services.AccountService;
 import mx.dm.gbmexercisebackend.services.BusinessErrorsHelper;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.sql.Timestamp;
@@ -23,6 +24,7 @@ public class AccountTests {
     static Order order1;
     static Order order2;
 
+    @Autowired
     public AccountTests(AccountService accountService, BusinessErrorsHelper businessErrorsHelper) {
         this.accountService = accountService;
         this.businessErrorsHelper = businessErrorsHelper;
