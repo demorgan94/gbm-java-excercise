@@ -1,10 +1,10 @@
-package mx.dm.gbmexcercisebackend;
+package mx.dm.gbmexercisebackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GbmExcerciseBackendApplicationTests {
+class GbmExerciseBackendApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package mx.dm.gbmexcercisebackend;
+package mx.dm.gbmexercisebackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GbmExcerciseBackendApplication {
+public class GbmExerciseBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GbmExcerciseBackendApplication.class, args);
+		SpringApplication.run(GbmExerciseBackendApplication.class, args);
 	}
 
 }

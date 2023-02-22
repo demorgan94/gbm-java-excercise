@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>mx.dm</groupId>
-	<artifactId>gbm-excercise-backend</artifactId>
+	<artifactId>gbm-exercise-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gbm-excercise-backend</name>
-	<description>Excercise Project for GBM</description>
+	<name>gbm-exercise-backend</name>
+	<description>Exercise Project for GBM</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
